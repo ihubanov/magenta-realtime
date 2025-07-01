@@ -63,7 +63,7 @@ from IPython.display import display, Audio
 
 num_seconds = 10
 mrt = system.MagentaRT()
-style = system.embed_style('funk')
+style = mrt.embed_style('funk')
 
 chunks = []
 state = None
